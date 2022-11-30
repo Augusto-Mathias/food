@@ -8,8 +8,14 @@ class Testes extends BaseController
 {
     public function index()
     {
-        
-        return view('Testes/index');
+        $data = [
+            'titulo' => 'Como fazer um sistema de entrega de comida com CodeIgniter 4',
+            'subtitulo' => 'muito legal conhecer essa nova versão do CodeIgniter 4',
+
+        ];
+
+
+        return view('Testes/index', $data);
     }
 
     public function novo (){

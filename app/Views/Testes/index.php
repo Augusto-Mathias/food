@@ -1,2 +1,6 @@
-<?php
-echo 'Essa é a view que o controller renderizou.';
+<h1><?php echo $titulo;  ?></h1>
+
+
+
+
+<h1><?php echo $subtitulo;  ?></h1>
